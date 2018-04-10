@@ -1,0 +1,189 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #749BA2;
+  color: #fff;
+
+}
+
+.main-header {
+  padding-top: 25px;
+  margin: 0;
+  height: 120px;
+  font-size: 3em;
+}
+
+.header_button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-image: url('./menu.svg');
+}
+
+.main_buttons {
+  display: block;
+  position: relative;
+  
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  background-color: tomato;
+  width: 50%;
+  height: 80px;
+  margin: 3em auto;
+}
+
+.main_buttons h3 {
+  position: absolute;
+  left: 12px;
+  top: -15px;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.main_buttons h1 {
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.header {
+  font-size: 2.3em;
+  margin: 2.5em;
+  color: #637478;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-span {
+  margin-left: 5%;
+  color: #749BA2;
+}
+
+.bottom-section {
+  padding: 3em 0 5em;
+  
+  width: 50%;
+  margin: auto;
+  position: relative;
+}
+
+.button-left, 
+.button-right {
+  position: absolute;
+  color: #fff;
+  height: 60px;
+  width: 220px;
+  font-weight: normal;
+  font-size: 1.7em;
+  border: none;
+  background-color: #B4DBDB;
+}
+
+.button-left {
+  left: 0;
+}
+
+.button-right {
+  right: 0;
+}
+
+.mobile-section {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  header {
+    height: 100px;
+  }
+  .main-header {
+    font-size: 1.3em;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 35px;
+  }
+
+  .header_button {
+    top: 20px;
+  }
+
+  .top-section {
+    margin-top: 30px;
+    width: 100%;
+    padding-top: 9em;
+    position: relative;
+    text-align: center;
+  }
+
+  .header-span {
+    position: absolute;
+    top: 0.3em;
+    right: 10%;
+    font-size: 1.5em;
+  }
+
+  .header {
+    font-size: 1.7em;
+    margin: 0;
+  }
+
+  .main_buttons {
+    display: none;
+  }
+
+  .bottom-section {
+    display: none;
+  }
+
+  .mobile-section {
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 220px;
+    width: 220px;
+    margin: 65px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 8em;
+    display: block;
+    background-color: tomato;
+    border-radius: 50%;
+   
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    font-size: 1.6em;
+  }
+
+  .main_buttons {
+    width: 75%;
+  }
+
+  .bottom-section {
+    width: 75%;
+  }
+
+  .button-right,
+  .button-left {
+    width: 150px;
+  }
+}
+
+
