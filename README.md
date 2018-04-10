@@ -12,4 +12,4 @@ Simple, positive info, only!
 
 ![wirefreame](./wireframe.png)
 ![fullscreen](./finished-mobile.png)
-![fullscreen](./finished-fullscreen.png)
+![fullscreen](./finshed-fullscreen.png)
