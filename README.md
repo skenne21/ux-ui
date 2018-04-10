@@ -10,6 +10,6 @@ Simple, positive info, only!
 
 
 
-![wirefreame]('./wireframe.md')
-![fullscreen]('./finished-mobile.md')
-![fullscreen]('./finished-fullscreen.md')
+![wirefreame](./wireframe.png)
+![fullscreen](./finished-mobile.png)
+![fullscreen](./finished-fullscreen.png)
